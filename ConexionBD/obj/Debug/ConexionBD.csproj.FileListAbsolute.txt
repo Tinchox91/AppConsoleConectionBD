@@ -1,0 +1,14 @@
+C:\Users\tinch\OneDrive\Documentos\c#\ConexionBD\ConexionBD\bin\Debug\ConexionBD.exe.config
+C:\Users\tinch\OneDrive\Documentos\c#\ConexionBD\ConexionBD\bin\Debug\ConexionBD.exe
+C:\Users\tinch\OneDrive\Documentos\c#\ConexionBD\ConexionBD\bin\Debug\ConexionBD.pdb
+C:\Users\tinch\OneDrive\Documentos\c#\ConexionBD\ConexionBD\bin\Debug\MySql.Data.dll
+C:\Users\tinch\OneDrive\Documentos\c#\ConexionBD\ConexionBD\bin\Debug\System.Memory.dll
+C:\Users\tinch\OneDrive\Documentos\c#\ConexionBD\ConexionBD\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\tinch\OneDrive\Documentos\c#\ConexionBD\ConexionBD\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\tinch\OneDrive\Documentos\c#\ConexionBD\ConexionBD\bin\Debug\System.Buffers.dll
+C:\Users\tinch\OneDrive\Documentos\c#\ConexionBD\ConexionBD\bin\Debug\MySql.Data.xml
+C:\Users\tinch\OneDrive\Documentos\c#\ConexionBD\ConexionBD\obj\Debug\ConexionBD.csproj.AssemblyReference.cache
+C:\Users\tinch\OneDrive\Documentos\c#\ConexionBD\ConexionBD\obj\Debug\ConexionBD.csproj.CoreCompileInputs.cache
+C:\Users\tinch\OneDrive\Documentos\c#\ConexionBD\ConexionBD\obj\Debug\ConexionBD.csproj.Up2Date
+C:\Users\tinch\OneDrive\Documentos\c#\ConexionBD\ConexionBD\obj\Debug\ConexionBD.exe
+C:\Users\tinch\OneDrive\Documentos\c#\ConexionBD\ConexionBD\obj\Debug\ConexionBD.pdb
