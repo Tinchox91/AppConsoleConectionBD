@@ -12,8 +12,11 @@ namespace ConexionBD
         static void Main(string[] args)
         {
             AccionSocio accionSocio = new AccionSocio();
-            accionSocio.mostrarSocios();
-            Console.ReadKey();
+            string resp;
+           
+                accionSocio.mostrarSocios();
+            
+            
            
         }
     }

@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\tinch\\OneDrive\\Documentos\\c#\\ConexionBD\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EF3D199C-9EE0-410F-B4C5-4A18915995D1}|ConexionBD\\ProyectoConectBD.csproj|c:\\users\\tinch\\onedrive\\documentos\\c#\\conexionbd\\conexionbd\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF3D199C-9EE0-410F-B4C5-4A18915995D1}|ConexionBD\\ProyectoConectBD.csproj|solutionrelative:conexionbd\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF3D199C-9EE0-410F-B4C5-4A18915995D1}|ConexionBD\\ConexionBD.csproj|C:\\Users\\tinch\\OneDrive\\Documentos\\c#\\ConexionBD\\conexionbd\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF3D199C-9EE0-410F-B4C5-4A18915995D1}|ConexionBD\\ConexionBD.csproj|solutionrelative:conexionbd\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EF3D199C-9EE0-410F-B4C5-4A18915995D1}|ConexionBD\\ProyectoConectBD.csproj|c:\\users\\tinch\\onedrive\\documentos\\c#\\conexionbd\\conexionbd\\acciones\\accionsocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EF3D199C-9EE0-410F-B4C5-4A18915995D1}|ConexionBD\\ProyectoConectBD.csproj|solutionrelative:conexionbd\\acciones\\accionsocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EF3D199C-9EE0-410F-B4C5-4A18915995D1}|ConexionBD\\ConexionBD.csproj|c:\\users\\tinch\\onedrive\\documentos\\c#\\conexionbd\\conexionbd\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF3D199C-9EE0-410F-B4C5-4A18915995D1}|ConexionBD\\ConexionBD.csproj|solutionrelative:conexionbd\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EF3D199C-9EE0-410F-B4C5-4A18915995D1}|ConexionBD\\ProyectoConectBD.csproj|C:\\Users\\tinch\\OneDrive\\Documentos\\c#\\ConexionBD\\conexionbd\\services\\serviciosocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF3D199C-9EE0-410F-B4C5-4A18915995D1}|ConexionBD\\ProyectoConectBD.csproj|solutionrelative:conexionbd\\services\\serviciosocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EF3D199C-9EE0-410F-B4C5-4A18915995D1}|ConexionBD\\ProyectoConectBD.csproj|c:\\users\\tinch\\onedrive\\documentos\\c#\\conexionbd\\conexionbd\\services\\serviciosocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF3D199C-9EE0-410F-B4C5-4A18915995D1}|ConexionBD\\ProyectoConectBD.csproj|solutionrelative:conexionbd\\services\\serviciosocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EF3D199C-9EE0-410F-B4C5-4A18915995D1}|ConexionBD\\ProyectoConectBD.csproj|c:\\users\\tinch\\onedrive\\documentos\\c#\\conexionbd\\conexionbd\\conexionbd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF3D199C-9EE0-410F-B4C5-4A18915995D1}|ConexionBD\\ProyectoConectBD.csproj|solutionrelative:conexionbd\\conexionbd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,26 +42,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
+              "Title": "ConexionBD.cs",
+              "DocumentMoniker": "C:\\Users\\tinch\\OneDrive\\Documentos\\c#\\ConexionBD\\ConexionBD\\ConexionBD.cs",
+              "RelativeDocumentMoniker": "ConexionBD\\ConexionBD.cs",
+              "ToolTip": "C:\\Users\\tinch\\OneDrive\\Documentos\\c#\\ConexionBD\\ConexionBD\\ConexionBD.cs",
+              "RelativeToolTip": "ConexionBD\\ConexionBD.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T22:54:42.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Inicio.cs",
+              "DocumentMoniker": "C:\\Users\\tinch\\OneDrive\\Documentos\\c#\\ConexionBD\\ConexionBD\\Inicio.cs",
+              "RelativeDocumentMoniker": "ConexionBD\\Inicio.cs",
+              "ToolTip": "C:\\Users\\tinch\\OneDrive\\Documentos\\c#\\ConexionBD\\ConexionBD\\Inicio.cs",
+              "RelativeToolTip": "ConexionBD\\Inicio.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAABEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T22:48:20.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "ServicioSocio.cs",
               "DocumentMoniker": "C:\\Users\\tinch\\OneDrive\\Documentos\\c#\\ConexionBD\\ConexionBD\\Services\\ServicioSocio.cs",
               "RelativeDocumentMoniker": "ConexionBD\\Services\\ServicioSocio.cs",
               "ToolTip": "C:\\Users\\tinch\\OneDrive\\Documentos\\c#\\ConexionBD\\ConexionBD\\Services\\ServicioSocio.cs",
               "RelativeToolTip": "ConexionBD\\Services\\ServicioSocio.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAxwCoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAmwHwAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-23T14:20:27.905Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "AccionSocio.cs",
               "DocumentMoniker": "C:\\Users\\tinch\\OneDrive\\Documentos\\c#\\ConexionBD\\ConexionBD\\Acciones\\AccionSocio.cs",
               "RelativeDocumentMoniker": "ConexionBD\\Acciones\\AccionSocio.cs",
               "ToolTip": "C:\\Users\\tinch\\OneDrive\\Documentos\\c#\\ConexionBD\\ConexionBD\\Acciones\\AccionSocio.cs",
               "RelativeToolTip": "ConexionBD\\Acciones\\AccionSocio.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAmwBYAAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAJ0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-23T14:35:18.105Z",
               "EditorCaption": ""
@@ -68,8 +102,7 @@
               "RelativeToolTip": "ConexionBD\\Inicio.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAAAA8AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T14:07:25.515Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-23T14:07:25.515Z"
             }
           ]
         }

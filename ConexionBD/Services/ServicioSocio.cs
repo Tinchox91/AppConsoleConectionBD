@@ -9,7 +9,7 @@ using MySql.Data.MySqlClient;
 
 namespace ConexionBD.Services
 {
-    internal class ServicioSocio:ConexionBD
+    internal class ServicioSocio : ConexionBD
     {
         public List<Socio> consulta(string dato)
         {
@@ -52,7 +52,90 @@ namespace ConexionBD.Services
             return lista;
 
         }
+        public void updateSocio(Socio dato)
+        {
+            // Definir la consulta SQL utilizando parámetros
+            string sql = "UPDATE socio SET nombre = @nombre, direccion = @direccion, mail = @mail, telefono = @telefono, deportes = @deportes WHERE id = @id";
+
+            // Abrir la conexión a la base de datos
+            using (MySqlConnection con = base.conexion())
+            {
+                con.Open();
+
+                // Crear el comando SQL y asignar la conexión
+                using (MySqlCommand cmd = new MySqlCommand(sql, con))
+                {
+                    // Asignar valores a los parámetros de la consulta
+                    cmd.Parameters.AddWithValue("@nombre", dato.nombre);
+                    cmd.Parameters.AddWithValue("@direccion", dato.direccion);
+                    cmd.Parameters.AddWithValue("@mail", dato.mail);
+                    cmd.Parameters.AddWithValue("@telefono", dato.telefono);
+                    cmd.Parameters.AddWithValue("@deportes", dato.deportes);
+                    cmd.Parameters.AddWithValue("@id", dato.id);
+
+                    // Ejecutar la consulta SQL
+                    cmd.ExecuteNonQuery();
+                }
+            }
+        }
+        public void deleteSocio(long ide)
+        {
+            string sql = "DELETE FROM socio WHERE id = @ide";
+
+
+            using (MySqlConnection con = base.conexion())
+            {
+                con.Open();
+
+
+                using (MySqlCommand cmd = new MySqlCommand(sql, con))
+                {
+                    // Asignar el valor del parámetro
+                    cmd.Parameters.AddWithValue("@ide", ide);
+                    cmd.ExecuteNonQuery();
+
+                }
+
+
+            }
+        }
+        public void createSocio(Socio socio)
+        {
+            string sql = "INSERT INTO socio (nombre, direccion, mail, telefono, deportes) VALUES (@nombre, @direccion, @mail, @telefono, @deportes)";
+
+            using (MySqlConnection con = base.conexion())
+            {
+                con.Open();
+
+                // Crear el comando SQL y asignar la conexión
+                try
+                {
+                    using (MySqlCommand cmd = new MySqlCommand(sql, con))
+                    {
+                        // Asignar valores a los parámetros de la consulta
+                        cmd.Parameters.AddWithValue("@nombre", socio.nombre);
+                        cmd.Parameters.AddWithValue("@direccion", socio.direccion);
+                        cmd.Parameters.AddWithValue("@mail", socio.mail);
+                        cmd.Parameters.AddWithValue("@telefono", socio.telefono);
+                        cmd.Parameters.AddWithValue("@deportes", socio.deportes);
+
+
+                        // Ejecutar la consulta SQL
+                        cmd.ExecuteNonQuery();
+                        Console.WriteLine("Usuario creado con exito!");
+                    }
+                }
+                catch (MySqlException e)
+                {
+
+                    Console.WriteLine(e.ToString());
+                }
+
+            }
+        }
 
     }
-}
+        }
+    
+
 

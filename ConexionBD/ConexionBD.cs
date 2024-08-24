@@ -24,7 +24,7 @@ namespace ConexionBD
             try
             {
                 conexionBD.Open();
-                Console.WriteLine("Conexion Exitosa!");
+                //Console.WriteLine("Conexion Exitosa!");
 
             }
             catch (MySqlException ex)
