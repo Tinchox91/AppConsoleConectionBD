@@ -1,4 +1,6 @@
 ﻿using ConexionBD.Acciones;
+using ConexionBD.Menu;
+using MySqlX.XDevAPI.Common;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,7 +16,14 @@ namespace ConexionBD
             AccionSocio accionSocio = new AccionSocio();
             string resp;
            
-                accionSocio.mostrarSocios();
+              MenuPrincipalSocio menuu = new MenuPrincipalSocio();
+            Boolean result;
+            do
+            {
+                menuu.menu();
+               result= menuu.continuarSiNo();
+                
+            } while (result);
             
             
            

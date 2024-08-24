@@ -51,6 +51,7 @@
     <Compile Include="ConexionBD.cs" />
     <Compile Include="Entidades\Socio.cs" />
     <Compile Include="Inicio.cs" />
+    <Compile Include="Menu\MenuPrincipalSocio.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\ServicioSocio.cs" />
   </ItemGroup>

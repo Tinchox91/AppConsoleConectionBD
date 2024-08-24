@@ -1,4 +1,5 @@
 ﻿using ConexionBD.Entidades;
+using ConexionBD.Menu;
 using ConexionBD.Services;
 using System;
 using System.Collections.Generic;
@@ -142,7 +143,14 @@ namespace ConexionBD.Acciones
                 Console.Write("Imgrese telefono: ");
                 socio.telefono = Int64.Parse(Console.ReadLine());
                 Console.Write("ingrese deporte: ");
-                socio.deportes = Console.ReadLine();
+                MenuPrincipalSocio menu = new MenuPrincipalSocio();
+                List<string> deportes= menu.menuDeportes();
+                string cadenaDeportes="";
+                foreach (string dep in deportes)
+                {
+                    cadenaDeportes += dep + ", ";
+                }
+                socio.deportes = cadenaDeportes;
                 servicioSocio.createSocio(socio);
             }
             catch (Exception e)
